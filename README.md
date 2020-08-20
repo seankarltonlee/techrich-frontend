@@ -1,1 +1,0 @@
-# techrich-frontend
