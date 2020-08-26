@@ -1,5 +1,6 @@
 {
   "name": "frontend",
+  "homepage": "https://techrich.dev",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,6 +8,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "gh-pages": "^3.1.0",
     "markdown-to-jsx": "^6.11.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -14,6 +16,8 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
