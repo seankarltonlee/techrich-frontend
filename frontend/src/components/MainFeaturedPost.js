@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { makeStyles } from "@material-ui/core/styles";
 
 import Paper from "@material-ui/core/Paper";
@@ -54,15 +55,10 @@ export default function MainFeaturedPost(props) {
               color="inherit"
               gutterBottom
             >
-              Don't cheat yourself.
+              {post.title}
             </Typography>
             <Typography variant="h5" color="inherit" paragraph>
-              I made a career switch into software engineering when I was
-              already years into a completely different career.
-            </Typography>
-            <Typography variant="h5" color="inherit" paragraph>
-              I want people to know exactly what they need to do, WITHOUT
-              putting up the TENS of THOUSANDS of dollars that I did.
+              {post.description}
             </Typography>
           </div>
         </Grid>
@@ -70,3 +66,7 @@ export default function MainFeaturedPost(props) {
     </Paper>
   );
 }
+
+MainFeaturedPost.propTypes = {
+  post: PropTypes.object,
+};

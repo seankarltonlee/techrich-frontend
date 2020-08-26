@@ -8,15 +8,24 @@ const useStyles = makeStyles((theme) => ({
   toolbar: {
     borderBottom: `1px solid ${theme.palette.divider}`,
   },
+  toolbarTitle: {
+    flex: 1,
+  },
 }));
 
 export default function Header(props) {
   const classes = useStyles();
-  const { sections, title } = props;
+  const { title } = props;
   return (
     <React.Fragment>
       <Toolbar className={classes.toolbar}>
-        <Typography component="h1" variant="h2" noWrap>
+        <Typography
+          component="h1"
+          variant="h2"
+          align="center"
+          noWrap
+          className={classes.toolbarTitle}
+        >
           {title}
         </Typography>
       </Toolbar>
