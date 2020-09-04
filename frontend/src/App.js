@@ -17,6 +17,7 @@ import BlogPost from "./components/BlogPost";
 
 // posts
 import what_it_takes from "./posts/what-it-takes.md";
+import how_i_got_in from "./posts/how-i-got-in-tech.md";
 console.log(what_it_takes);
 
 const theme = createMuiTheme({
@@ -52,10 +53,15 @@ const featuredPosts = [
     link: "/what-it-takes",
   },
   {
-    title: "Coming soon!",
-    date: "",
-    description: "",
-    image: "https://source.unsplash.com/random",
+    title: "How I Got In Tech",
+    date: "Sep 4",
+    description:
+      "In 2015 I was a temp. They told me that in three years my contract would be over. \
+    I thought to myself: “3 years? Who the hell wants to be a temp for that long?” Well, 2.5 years \
+    later and there I was. The job sucked, I got paid little, and I needed out. Desperately.",
+    image:
+      "https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1414&q=80",
+    link: "/how-i-got-in-tech",
   },
 ];
 
@@ -80,6 +86,12 @@ function App() {
                   <BlogPost
                     title="What It Takes"
                     post={what_it_takes}
+                  ></BlogPost>
+                </Route>
+                <Route path="/how-i-got-in-tech">
+                  <BlogPost
+                    title="How I Got In Tech"
+                    post={how_i_got_in}
                   ></BlogPost>
                 </Route>
               </Switch>
