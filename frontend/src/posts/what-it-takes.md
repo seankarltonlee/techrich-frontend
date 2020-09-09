@@ -17,3 +17,5 @@ Write short programs. Avoid doing too much at once. Engineers aren’t as smart 
 If you’ve built enough and struggled enough, you’ll notice that you can comprehend new technologies quicker. That’s how it works.
 
 That’s it. You just learned 85% of what it takes. You’re welcome.
+
+If you found this useful, and it works for you, join my email list. I love hearing from you.

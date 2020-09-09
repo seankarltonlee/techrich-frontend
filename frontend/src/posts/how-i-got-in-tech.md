@@ -18,7 +18,7 @@ So I started working more. Except this work was for my own benefit, not someone 
 
 I passed the interview. Then I passed another interview for App Academy! Then I applied to grad school for computer science! Then I got rejected again! From every school I applied!
 
-Except one (phew) USC accepted me into their Master’s program for computer science designed for scientists and engineers. I dropped the bootcamps and went for grad school.
+Except one (phew). I dropped the bootcamps and went for grad school.
 
 What I would urge you to take from it is this, have a bias for action. I stopped hoping that someone would offer me a full-time position. I stopped hoping that someone would recognize the quality of my work. I stopped hoping for something (anything!) good to fall into my lap.
 
@@ -27,3 +27,5 @@ I stopped hoping, and started doing - and I made sure to do it damn well.
 I failed (a lot). I felt like I wasn’t good enough (often). And I will continue to fail and feel less than adequate. But the win is so sweet. Don’t let short term failures affect the action you take towards long term success. This series of (fortunate) events have completely changed my trajectory. I’m eternally grateful for it, and I want to give back.
 
 What do you want to learn?
+
+If you found this useful, and it works for you, join my email list. I love hearing from you.
