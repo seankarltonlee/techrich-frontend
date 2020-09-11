@@ -3,6 +3,7 @@ import { withStyles } from "@material-ui/styles";
 import PropTypes from "prop-types";
 import Grid from "@material-ui/core/Grid";
 import Markdown from "./Markdown";
+import EmailForm from "./EmailForm";
 
 const styles = (theme) => ({
   markdown: {
@@ -19,7 +20,7 @@ class BlogPost extends Component {
     };
   }
 
-  componentWillMount() {
+  componentDidMount() {
     fetch(this.props.post)
       .then((res) => res.text())
       .then((md) => {
@@ -32,8 +33,9 @@ class BlogPost extends Component {
   render() {
     const { classes } = this.props;
     return (
-      <Grid xs={12} md={12}>
+      <Grid item xs={12} md={12}>
         <Markdown className={classes.markdown}>{this.state.md}</Markdown>
+        <EmailForm></EmailForm>
       </Grid>
     );
   }
