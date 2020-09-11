@@ -1,4 +1,5 @@
 import React from "react";
+import { config } from "../Constants";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import Container from "@material-ui/core/Container";
@@ -29,7 +30,7 @@ async function submitEmail(data) {
   try {
     //   TODO: Remove logging statements
     console.log(data);
-    const response = await axios.post("http://localhost:5000/subscribe", data, {
+    const response = await axios.post(config.mailchimp_subscribe_url, data, {
       headers: { "Content-Type": "application/json" },
     });
     console.log(response);
