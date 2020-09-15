@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { withStyles } from "@material-ui/styles";
 import PropTypes from "prop-types";
 import Grid from "@material-ui/core/Grid";
+import Container from "@material-ui/core/Container";
 import Markdown from "./Markdown";
 import EmailForm from "./EmailForm";
 
@@ -33,10 +34,12 @@ class BlogPost extends Component {
   render() {
     const { classes } = this.props;
     return (
-      <Grid item xs={12} md={12}>
-        <Markdown className={classes.markdown}>{this.state.md}</Markdown>
-        <EmailForm></EmailForm>
-      </Grid>
+      <Container maxWidth="sm">
+        <Grid item xs={12} md={12}>
+          <Markdown className={classes.markdown}>{this.state.md}</Markdown>
+          <EmailForm></EmailForm>
+        </Grid>
+      </Container>
     );
   }
 }

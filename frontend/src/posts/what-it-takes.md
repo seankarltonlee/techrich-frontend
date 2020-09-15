@@ -2,6 +2,8 @@
 
 ## “Comfort is what we seek, but it is risk that delivers it.” - Owen Marcus
 
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80">
+
 I went from being an envious wet-lab grunt to an egotistical software engineer. I couldn’t believe how simple it was. I’ll tell you the tactics here so you don’t have to waste years of your life in class.
 
 Being a software engineer is about teachability and iteration. You have to be willing to learn, you have to keep trying when you fail. The main technique is keeping things simple. Simple code is clean code. Tackle five simple problems instead of one big problem.

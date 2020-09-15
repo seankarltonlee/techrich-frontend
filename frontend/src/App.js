@@ -54,7 +54,7 @@ const featuredPosts = [
     link: "/what-it-takes",
   },
   {
-    title: "How I Got In Tech",
+    title: "How I Got A Job In Tech",
     date: "Sep 4",
     description:
       "In 2015 I was a temp. They told me that in three years my contract would be over. \
