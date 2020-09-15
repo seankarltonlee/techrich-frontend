@@ -32,6 +32,8 @@ const theme = createMuiTheme({
 
 const mainFeaturedPost = {
   title: "Make more money.",
+  image:
+    "https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80",
   description:
     "I made a career switch into software engineering when I was \
     already years into a completely different career. I want people to \

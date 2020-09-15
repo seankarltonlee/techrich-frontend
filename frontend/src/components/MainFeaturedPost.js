@@ -6,8 +6,6 @@ import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 
-import FeaturedImage from "./featured_image.jpg";
-
 const useStyles = makeStyles((theme) => ({
   mainFeaturedPost: {
     backgroundSize: "cover",
@@ -43,7 +41,7 @@ export default function MainFeaturedPost(props) {
   return (
     <Paper
       className={classes.mainFeaturedPost}
-      style={{ backgroundImage: `url(${FeaturedImage})` }}
+      style={{ backgroundImage: `url(${post.image})` }}
     >
       <div className={classes.overlay} />
       <Grid container>
