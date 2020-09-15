@@ -1,4 +1,4 @@
-# What it takes
+# How To Be A Software Engineer
 
 ## “Comfort is what we seek, but it is risk that delivers it.” - Owen Marcus
 

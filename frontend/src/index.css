@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap");
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: local("PlayfairDisplay"),
+    url(./fonts/PlayfairDisplay-VariableFont_wght.ttf) format("truetype");
+}
 
 body {
   margin: 0;

@@ -43,12 +43,10 @@ const mainFeaturedPost = {
 
 const featuredPosts = [
   {
-    title: "What It Takes",
+    title: "How To Be A Software Engineer",
     date: "Aug 24",
     description:
-      "I went from being an envious wet-lab grunt to an egotistical \
-    software engineer. I couldn’t believe how simple it was. I’ll tell you the \
-    tactics here so you don’t have to waste years of your life in class.",
+      "I couldn’t believe how simple it was. I’ll tell you the tactics here so you don’t have to waste years of your life in class.",
     image:
       "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80",
     link: "/what-it-takes",
@@ -56,10 +54,7 @@ const featuredPosts = [
   {
     title: "How I Got A Job In Tech",
     date: "Sep 4",
-    description:
-      "In 2015 I was a temp. They told me that in three years my contract would be over. \
-    I thought to myself: “3 years? Who the hell wants to be a temp for that long?” Well, 2.5 years \
-    later and there I was. The job sucked, I got paid little, and I needed out. Desperately.",
+    description: "3 years? Who the hell wants to be a temp for that long?",
     image:
       "https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1414&q=80",
     link: "/how-i-got-in-tech",
