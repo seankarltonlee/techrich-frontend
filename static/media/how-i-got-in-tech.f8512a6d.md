@@ -1,4 +1,10 @@
-# How I Got In Tech
+# How I Got A Job In Tech
+
+## "There's no mystery to turning pro. It's a decision brough about by an act of will."
+
+## - Steven Pressfield
+
+<img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1414&q=80">
 
 In 2015 I was a temp. They told me that in three years my contract would be over. I thought to myself: “3 years? Who the hell wants to be a temp for that long?” Well, 2.5 years later and there I was. The job sucked, I got paid little, and I needed out. Desperately.
 
